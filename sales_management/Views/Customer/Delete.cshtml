@@ -1,0 +1,58 @@
+﻿@model sales_management.ModelView.CustomerModelView
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Customer_name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Customer_name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Trade_Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Trade_Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.address)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.address)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Opening_balance)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Opening_balance)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Phone_number)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Phone_number)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Agent_code)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Agent_code)
+        </dd>
+     
+    </dl>
+    
+    <form asp-action="DeleteConfig">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Delete" class="btn btn-default" /> 
+        <br /> <br />
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

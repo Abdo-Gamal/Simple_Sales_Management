@@ -1,0 +1,55 @@
+﻿@model sales_management.ModelView.ProductToinvoiceModelView
+
+@{
+    ViewData["Title"] = "addProductToinvoice";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>addProductToinvoice</h2>
+
+<h4>ProductToinvoiceModelView</h4>
+<hr />
+<div class="row">
+    <div class="col-md-80">
+        <form asp-action="addProductToinvoice">
+            <input type="hidden" name="invoiceId" value="@ViewBag.invoiceId" class="form-control" />
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="price" class="control-label"></label>
+                <input asp-for="price" class="form-control" />
+                <span asp-validation-for="price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="quantity" class="control-label"></label>
+                <input asp-for="quantity" class="form-control" />
+                <span asp-validation-for="quantity" class="text-danger"></span>
+            </div>
+  
+            <div class="form-group">
+                <label class="control-label">products Name </label>
+                <select name="productsId" id="productsId" class="form-control ">
+                    <br>
+                    @foreach (var prd in ViewBag.productsLsit)
+                    {
+
+                        <option value="@prd.Id" selected>@prd.Name ==> price ==> @prd.lowestPrice</option>
+
+                    }
+                </select>
+                <span asp-validation-for="productsId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+          
+        </form>
+    </div>
+</div>
+
+<div>
+    <a class="btn btn-default" href="@Url.Action("colseOrder", "invoice", new { invoiceId = ViewBag.invoiceId })">End process</a>
+@*    <a asp-action="colseOrder"> End process class="btn btn-default"</a>
+*@
+</div>
+

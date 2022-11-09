@@ -1,0 +1,135 @@
+﻿@model sales_management.ModelView.Company_infoModelView
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<!------ Include the above in your HEAD tag ---------->
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<div class="container emp-profile">
+                <div class="row">
+                    <div class="text-center">
+                    <img src="/img/@Model.logo" class="avatar img-preview-custom img-thumbnail" alt="avatar">
+                  </div> 
+                    <div class="col-md-6">
+                        <div class="profile-head">
+                          
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">About</a>
+                                </li>
+                             <hr /><br />
+                            </ul>
+                        </div>
+                    </div>
+                  <form action="~/Company_info/Edit" method="get" >
+                      <input type="hidden" name="Id" value="@Model.Id" />
+                       <input type="hidden" name="logo" value="@Model.logo" />
+                    <div class="col-md-2">
+                        <input type="submit" class="profile-edit-btn" name="btnAddMore" value="Edit Profile"/>
+                    </div>
+                    </form>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="tab-content profile-tab" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                         <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Name</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                   @Html.DisplayFor(modelItem => modelItem.Company_name)
+                                            </div>
+                                        </div>
+                                
+                                  <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Print_type</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                       @Html.DisplayFor(modelItem => modelItem.Print_type)
+                                            </div>
+                                        </div>
+                                     
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Email</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                           @Html.DisplayFor(modelItem => modelItem.E_mail)
+
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Phone</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                              @Html.DisplayFor(modelItem => modelItem.phone_number)
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>adress</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                @Html.DisplayFor(modelItem => modelItem.address)
+                                            </div>
+                                        </div>
+                                           <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Cloud type</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                @Html.DisplayFor(modelItem => modelItem.Cloud_type)
+                                            </div>
+                                        </div>
+                                               <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Facebook url</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                @Html.DisplayFor(modelItem => modelItem.Facebook)
+                                            </div>
+                                        </div>
+                                         <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Tax_Number</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                @Html.DisplayFor(modelItem => modelItem.Tax_Number)
+                                            </div>
+                                        </div>
+                                            <div class="row">
+                                            <div class="col-md-6">
+                                            <label asp-for="note" class="control-label"></label>
+                                            </div>
+                                             <div class="form-group">
+              
+                                        <textarea asp-for="note" class="form-control"></textarea>
+                                      <span asp-validation-for="note" class="text-danger"></span>
+                                             </div>
+                                        </div>
+                                        
+
+                            </div>
+                         
+                        </div>
+                    </div>
+                </div>
+                
+        </div>                

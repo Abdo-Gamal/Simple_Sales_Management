@@ -1,0 +1,75 @@
+﻿@model sales_management.ModelView.CustomerModelView
+
+@{
+    ViewData["Title"] = "create";
+    Layout = "_Layout";
+}
+
+<h1>create</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-100" style="padding=60">
+        <form asp-action="create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Customer_name" class="control-label"></label>
+                <input asp-for="Customer_name" class="form-control" />
+                <span asp-validation-for="Customer_name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Trade_Name" class="control-label"></label>
+                <input asp-for="Trade_Name" class="form-control" />
+                <span asp-validation-for="Trade_Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="address" class="control-label"></label>
+                <input asp-for="address" class="form-control" />
+                <span asp-validation-for="address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Opening_balance" class="control-label"></label>
+                <input asp-for="Opening_balance" class="form-control" />
+                <span asp-validation-for="Opening_balance" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Phone_number" class="control-label"></label>
+                <input asp-for="Phone_number" class="form-control" />
+                <span asp-validation-for="Phone_number" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Agent_code" class="control-label"></label>
+                <input asp-for="Agent_code" class="form-control" />
+                <span asp-validation-for="Agent_code" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+            <label  class="control-label">Customertype</label>
+              <select name="typeID" id="typeID" class="form-control ">
+                <br>
+                 @foreach (var type in  ViewBag.CustomerTypes)
+                {
+
+                <option value="@type.Id" selected>@type.type</option>
+
+                }
+                 </select>
+              <span asp-validation-for="typeID" class="text-danger"></span>
+
+             </div>
+           @* <input type="hidden" asp-for="Id" />*@
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@*@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+*@

@@ -1,0 +1,83 @@
+﻿@using sales_management.ModelView
+@model IEnumerable<CustomerModelView>
+
+@{
+    Layout ="_Layout";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+</head>
+<body>
+
+    <a id="pntprint" class="bnt bnt-success" href="~/Customer/print">print</a>
+<hr/><br />
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Customer_name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Trade_Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Opening_balance)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Phone_number)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Agent_code)
+            </th>
+            <th>
+            @*    @Html.DisplayNameFor("")*@
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Customer_name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Trade_Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Opening_balance)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Phone_number)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Agent_code)
+            </td>
+            <td>
+@*                //@Html.DisplayFor(modelItem => item.typeID)
+*@            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+@*                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+*@                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</body>
+</html>

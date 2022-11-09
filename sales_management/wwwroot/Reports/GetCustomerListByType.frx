@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="10/21/2022 23:34:52" ReportInfo.Modified="10/21/2022 23:52:49" ReportInfo.CreatorVersion="2022.3.11.0">
+  <Styles Name="Sand">
+    <Style Name="Title" Font="Arial, 12pt, style=Bold"/>
+    <Style Name="Header" Fill.Color="Moccasin" Font="Arial, 10pt, style=Bold"/>
+    <Style Name="Group" Font="Arial, 10pt, style=Bold"/>
+    <Style Name="Data" Font="Arial, 10pt"/>
+    <Style Name="Footer" Fill.Color="Moccasin" Font="Arial, 10pt"/>
+    <Style Name="EvenRows" Fill.Color="FloralWhite" Font="Arial, 10pt"/>
+  </Styles>
+  <Dictionary>
+    <MsSqlDataConnection Name="Connection" ConnectionString="rijcmlq+rW0RkboK+/8CKGGYUID3ctBV8q9SvKYxl3iiE7vBnh7Tgou0+4WFf3NfmPSvHVFzXKR5clJflhUSBM6mHtiCOSItnRKUHOlx7pppMc2uBf2CJN3gDSIPbeyoeSH3svTfStc8q7u+5pqPW9kszdLdGFrnovc/O5n9rQJI+EAKnU6opwtpPoby5wxoLdqXl3u">
+      <TableDataSource Name="Customers1" DataType="System.Int32" Enabled="true" TableName="Customers" SelectCommand="exec GetCustomerListByTypeID @TblCatagroyID">
+        <Column Name="Id" DataType="System.Int32"/>
+        <Column Name="Customer_name" DataType="System.String"/>
+        <Column Name="Trade_Name" DataType="System.String"/>
+        <Column Name="address" DataType="System.String"/>
+        <Column Name="Opening_balance" DataType="System.Double"/>
+        <Column Name="Phone_number" DataType="System.String"/>
+        <Column Name="Agent_code" DataType="System.String"/>
+        <Column Name="typeID" DataType="System.Int32"/>
+        <CommandParameter Name="TblCatagroyID" DataType="22" Expression="[TblCatagroyID]"/>
+      </TableDataSource>
+    </MsSqlDataConnection>
+    <Parameter Name="TblCatagroyID" DataType="System.String"/>
+    <Parameter Name="CONN" DataType="System.String"/>
+  </Dictionary>
+  <ReportPage Name="Page1" Watermark.Font="Arial, 60pt">
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="37.8">
+      <TextObject Name="Text1" Width="718.2" Height="37.8" Dock="Fill" Text="Customers1" HorzAlign="Center" VertAlign="Center" Font="Arial, 12pt, style=Bold" Style="Title"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="41.8" Width="718.2" Height="28.35">
+      <TextObject Name="Text3" Width="94.5" Height="18.9" Fill.Color="Moccasin" Text="Id" Font="Arial, 10pt, style=Bold" Style="Header"/>
+      <TextObject Name="Text5" Left="94.5" Width="94.5" Height="18.9" Fill.Color="Moccasin" Text="Customer_name" Font="Arial, 10pt, style=Bold" Style="Header"/>
+      <TextObject Name="Text7" Left="189" Width="94.5" Height="18.9" Fill.Color="Moccasin" Text="Trade_Name" Font="Arial, 10pt, style=Bold" Style="Header"/>
+      <TextObject Name="Text9" Left="283.5" Width="94.5" Height="18.9" Fill.Color="Moccasin" Text="address" Font="Arial, 10pt, style=Bold" Style="Header"/>
+      <TextObject Name="Text11" Left="378" Width="85.05" Height="18.9" Fill.Color="Moccasin" Text="Opening_balance" Font="Arial, 10pt, style=Bold" Style="Header"/>
+      <TextObject Name="Text13" Left="463.05" Width="85.05" Height="18.9" Fill.Color="Moccasin" Text="Phone_number" Font="Arial, 10pt, style=Bold" Style="Header"/>
+      <TextObject Name="Text15" Left="548.1" Width="85.05" Height="18.9" Fill.Color="Moccasin" Text="Agent_code" Font="Arial, 10pt, style=Bold" Style="Header"/>
+      <TextObject Name="Text17" Left="633.15" Width="85.05" Height="18.9" Fill.Color="Moccasin" Text="typeID" Font="Arial, 10pt, style=Bold" Style="Header"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="74.15" Width="718.2" Height="18.9" EvenStyle="EvenRows" DataSource="Customers1">
+      <TextObject Name="Text2" Width="94.5" Height="18.9" Text="[Customers1.Id]" Font="Arial, 10pt" Style="Data"/>
+      <TextObject Name="Text4" Left="94.5" Width="94.5" Height="18.9" Text="[Customers1.Customer_name]" Font="Arial, 10pt" Style="Data"/>
+      <TextObject Name="Text6" Left="189" Width="94.5" Height="18.9" Text="[Customers1.Trade_Name]" Font="Arial, 10pt" Style="Data"/>
+      <TextObject Name="Text8" Left="283.5" Width="94.5" Height="18.9" Text="[Customers1.address]" Font="Arial, 10pt" Style="Data"/>
+      <TextObject Name="Text10" Left="378" Width="85.05" Height="18.9" Text="[Customers1.Opening_balance]" Font="Arial, 10pt" Style="Data"/>
+      <TextObject Name="Text12" Left="463.05" Width="85.05" Height="18.9" Text="[Customers1.Phone_number]" Font="Arial, 10pt" Style="Data"/>
+      <TextObject Name="Text14" Left="548.1" Width="85.05" Height="18.9" Text="[Customers1.Agent_code]" Font="Arial, 10pt" Style="Data"/>
+      <TextObject Name="Text16" Left="633.15" Width="85.05" Height="18.9" Text="[Customers1.typeID]" Font="Arial, 10pt" Style="Data"/>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" Top="97.05" Width="718.2" Height="18.9">
+      <TextObject Name="Text18" Width="718.2" Height="18.9" Dock="Fill" Fill.Color="Moccasin" Text="[PageN]" HorzAlign="Right" Font="Arial, 10pt" Style="Footer"/>
+    </PageFooterBand>
+  </ReportPage>
+</Report>

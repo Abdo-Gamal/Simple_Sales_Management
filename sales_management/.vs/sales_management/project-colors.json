@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0493b7f3-b4ed-45e8-b584-ae473992f8dc": {
+      "ProjectGuid": "0493b7f3-b4ed-45e8-b584-ae473992f8dc",
+      "DisplayName": "sales_management",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "6bc4ba14-ddb4-40b9-8fa5-366ee6745808": {
+      "ProjectGuid": "6bc4ba14-ddb4-40b9-8fa5-366ee6745808",
+      "DisplayName": "RDLCDesign",
+      "ColorIndex": 1
+    },
+    "b7046917-5325-46ce-8008-05f81296436b": {
+      "ProjectGuid": "b7046917-5325-46ce-8008-05f81296436b",
+      "DisplayName": "RDLC",
+      "ColorIndex": 2
+    },
+    "46cdf17f-4bda-4e15-b665-ed2696ce1187": {
+      "ProjectGuid": "46cdf17f-4bda-4e15-b665-ed2696ce1187",
+      "DisplayName": "RDLC2",
+      "ColorIndex": 3
+    },
+    "fdcfaba7-caf7-4cde-b444-839a2c3bf07c": {
+      "ProjectGuid": "fdcfaba7-caf7-4cde-b444-839a2c3bf07c",
+      "DisplayName": "RDLC4",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}

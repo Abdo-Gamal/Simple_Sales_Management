@@ -1,0 +1,151 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular.svg" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="wwwroot\fonts\notika-icon.svg" />
+    <None Include="wwwroot\js\animation\animation-active.js" />
+    <None Include="wwwroot\js\autosize.min.js" />
+    <None Include="wwwroot\js\bootstrap-select\bootstrap-select.js" />
+    <None Include="wwwroot\js\bootstrap.min.js" />
+    <None Include="wwwroot\js\charts\area-chart.js" />
+    <None Include="wwwroot\js\charts\bar-chart.js" />
+    <None Include="wwwroot\js\charts\Chart.js" />
+    <None Include="wwwroot\js\charts\line-chart.js" />
+    <None Include="wwwroot\js\chat\jquery.chat.js" />
+    <None Include="wwwroot\js\chat\moment.min.js" />
+    <None Include="wwwroot\js\chosen\chosen.jquery.js" />
+    <None Include="wwwroot\js\code-editor\code-editor-active.js" />
+    <None Include="wwwroot\js\code-editor\code-editor.js" />
+    <None Include="wwwroot\js\code-editor\codemirror.js" />
+    <None Include="wwwroot\js\color-picker\color-picker.js" />
+    <None Include="wwwroot\js\color-picker\farbtastic.min.js" />
+    <None Include="wwwroot\js\counterup\counterup-active.js" />
+    <None Include="wwwroot\js\counterup\jquery.counterup.min.js" />
+    <None Include="wwwroot\js\counterup\waypoints.min.js" />
+    <None Include="wwwroot\js\cropper\cropper-actice.js" />
+    <None Include="wwwroot\js\cropper\cropper.min.js" />
+    <None Include="wwwroot\js\data-map\d3.min.js" />
+    <None Include="wwwroot\js\data-map\data-maps-active.js" />
+    <None Include="wwwroot\js\data-map\datamaps.all.min.js" />
+    <None Include="wwwroot\js\data-map\topojson.js" />
+    <None Include="wwwroot\js\data-table\data-table-act.js" />
+    <None Include="wwwroot\js\data-table\jquery.dataTables.min.js" />
+    <None Include="wwwroot\js\datapicker\bootstrap-datepicker.js" />
+    <None Include="wwwroot\js\datapicker\datepicker-active.js" />
+    <None Include="wwwroot\js\dialog\dialog-active.js" />
+    <None Include="wwwroot\js\dialog\sweetalert2.min.js" />
+    <None Include="wwwroot\js\dropzone\dropzone.js" />
+    <None Include="wwwroot\js\easytopie\jquery.easypiechart.min.js" />
+    <None Include="wwwroot\js\easytopie\salvattore.min.js" />
+    <None Include="wwwroot\js\flot\analtic-flot-active.js" />
+    <None Include="wwwroot\js\flot\chart-tooltips.js" />
+    <None Include="wwwroot\js\flot\curvedLines.js" />
+    <None Include="wwwroot\js\flot\flot-active.js" />
+    <None Include="wwwroot\js\flot\flot-widget-anatic-active.js" />
+    <None Include="wwwroot\js\flot\jquery.flot.js" />
+    <None Include="wwwroot\js\flot\jquery.flot.orderBars.js" />
+    <None Include="wwwroot\js\flot\jquery.flot.pie.js" />
+    <None Include="wwwroot\js\flot\jquery.flot.resize.js" />
+    <None Include="wwwroot\js\flot\jquery.flot.time.js" />
+    <None Include="wwwroot\js\flot\jquery.flot.tooltip.min.js" />
+    <None Include="wwwroot\js\google.maps\google.maps-active.js" />
+    <None Include="wwwroot\js\google.maps\google.maps2-active.js" />
+    <None Include="wwwroot\js\icheck\icheck-active.js" />
+    <None Include="wwwroot\js\icheck\icheck.min.js" />
+    <None Include="wwwroot\js\jasny-bootstrap.min.js" />
+    <None Include="wwwroot\js\jquery-price-slider.js" />
+    <None Include="wwwroot\js\jquery.scrollUp.min.js" />
+    <None Include="wwwroot\js\jvectormap\jquery-jvectormap-2.0.2.min.js" />
+    <None Include="wwwroot\js\jvectormap\jquery-jvectormap-world-mill-en.js" />
+    <None Include="wwwroot\js\jvectormap\jvectormap-active.js" />
+    <None Include="wwwroot\js\knob\jquery.appear.js" />
+    <None Include="wwwroot\js\knob\jquery.knob.js" />
+    <None Include="wwwroot\js\knob\knob-active.js" />
+    <None Include="wwwroot\js\login\login-action.js" />
+    <None Include="wwwroot\js\main.js" />
+    <None Include="wwwroot\js\meanmenu\jquery.meanmenu.js" />
+    <None Include="wwwroot\js\metisMenu\metisMenu-active.js" />
+    <None Include="wwwroot\js\metisMenu\metisMenu.min.js" />
+    <None Include="wwwroot\js\notification\bootstrap-growl.min.js" />
+    <None Include="wwwroot\js\notification\notification-active.js" />
+    <None Include="wwwroot\js\owl.carousel.min.js" />
+    <None Include="wwwroot\js\plugins.js" />
+    <None Include="wwwroot\js\rangle-slider\jquery-ui-1.10.4.custom.min.js" />
+    <None Include="wwwroot\js\rangle-slider\jquery-ui-touch-punch.min.js" />
+    <None Include="wwwroot\js\rangle-slider\rangle-active.js" />
+    <None Include="wwwroot\js\scrollbar\jquery.mCustomScrollbar.concat.min.js" />
+    <None Include="wwwroot\js\site.js" />
+    <None Include="wwwroot\js\sparkline\jquery.sparkline.min.js" />
+    <None Include="wwwroot\js\sparkline\sparkline-active.js" />
+    <None Include="wwwroot\js\summernote\summernote-active.js" />
+    <None Include="wwwroot\js\summernote\summernote-updated.min.js" />
+    <None Include="wwwroot\js\summernote\summernote.min.js" />
+    <None Include="wwwroot\js\tawk-chat.js" />
+    <None Include="wwwroot\js\todo\jquery.todo.js" />
+    <None Include="wwwroot\js\vendor\jquery-1.12.4.min.js" />
+    <None Include="wwwroot\js\vendor\modernizr-2.8.3.min.js" />
+    <None Include="wwwroot\js\wave\wave-active.js" />
+    <None Include="wwwroot\js\wave\waves.min.js" />
+    <None Include="wwwroot\js\wizard\jquery.bootstrap.wizard.min.js" />
+    <None Include="wwwroot\js\wizard\wizard-active.js" />
+    <None Include="wwwroot\js\wow.min.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspNetCore.Reporting" Version="2.1.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="Corrected.Microsoft.ReportingServices.ReportViewerControl.Winforms" Version="150.1358.0" />
+    <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="FastReport.OpenSource" Version="2022.3.11" />
+    <PackageReference Include="FastReport.OpenSource.Data.MsSql" Version="2021.4.0" />
+    <PackageReference Include="FastReport.OpenSource.Export.PdfSimple" Version="2022.3.11" />
+    <PackageReference Include="FastReport.OpenSource.Web" Version="2022.3.11" />
+    <PackageReference Include="Google.AdWords" Version="24.19.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.ReportingServices.ReportViewerControl.WebForms" Version="150.1537.0" />
+    <PackageReference Include="Microsoft.ReportingServices.ReportViewerControl.Winforms" Version="150.1537.0" />
+    <PackageReference Include="Microsoft.VisualStudio.SDK" Version="17.3.32804.24" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.10" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.0" />
+    <PackageReference Include="System.CodeDom" Version="6.0.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.1" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="wwwroot\Reports\invoices.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Reports\invoicesRepo.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Reports\Report2.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Reports\rptCustomer.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Reports\testinvoive.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
+</Project>

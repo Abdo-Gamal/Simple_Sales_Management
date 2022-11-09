@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.apidescription.server\3.0.0\build\Microsoft.Extensions.ApiDescription.Server.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.apidescription.server\3.0.0\build\Microsoft.Extensions.ApiDescription.Server.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.visualstudio.threading.analyzers\17.3.44\build\Microsoft.VisualStudio.Threading.Analyzers.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.visualstudio.threading.analyzers\17.3.44\build\Microsoft.VisualStudio.Threading.Analyzers.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.codeanalysis.bannedapianalyzers\3.3.2\build\Microsoft.CodeAnalysis.BannedApiAnalyzers.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.codeanalysis.bannedapianalyzers\3.3.2\build\Microsoft.CodeAnalysis.BannedApiAnalyzers.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.visualstudio.sdk.analyzers\16.10.10\build\Microsoft.VisualStudio.SDK.Analyzers.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.visualstudio.sdk.analyzers\16.10.10\build\Microsoft.VisualStudio.SDK.Analyzers.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.visualstudio.setup.configuration.interop\3.3.2180\build\Microsoft.VisualStudio.Setup.Configuration.Interop.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.visualstudio.setup.configuration.interop\3.3.2180\build\Microsoft.VisualStudio.Setup.Configuration.Interop.targets')" />
+    <Import Project="$(NuGetPackageRoot)fastreport.compat\2022.3.2\buildTransitive\netcoreapp3.0\FastReport.Compat.targets" Condition="Exists('$(NuGetPackageRoot)fastreport.compat\2022.3.2\buildTransitive\netcoreapp3.0\FastReport.Compat.targets')" />
+  </ImportGroup>
+</Project>

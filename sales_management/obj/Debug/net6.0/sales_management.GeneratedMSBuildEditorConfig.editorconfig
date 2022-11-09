@@ -1,0 +1,151 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.PublishSingleFile = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.RootNamespace = sales_management
+build_property.RootNamespace = sales_management
+build_property.ProjectDir = D:\0-training_after_graduate\login_trainging\sales_management\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\0-training_after_graduate\login_trainging\sales_management
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/ALL IN ONE/.nuget/packages/microsoft.visualstudio.threading.analyzers/17.3.44/build/AdditionalFiles/vs-threading.LegacyThreadSwitchingMembers.txt]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ALL IN ONE/.nuget/packages/microsoft.visualstudio.threading.analyzers/17.3.44/build/AdditionalFiles/vs-threading.MainThreadAssertingMethods.txt]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ALL IN ONE/.nuget/packages/microsoft.visualstudio.threading.analyzers/17.3.44/build/AdditionalFiles/vs-threading.MainThreadSwitchingMethods.txt]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ALL IN ONE/.nuget/packages/microsoft.visualstudio.threading.analyzers/17.3.44/build/AdditionalFiles/vs-threading.MembersRequiringMainThread.txt]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ALL IN ONE/.nuget/packages/microsoft.visualstudio.sdk.analyzers/16.10.10/build/AdditionalFiles/BannedSymbols.txt]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ALL IN ONE/.nuget/packages/microsoft.visualstudio.sdk.analyzers/16.10.10/build/AdditionalFiles/vs-threading.LegacyThreadSwitchingMembers.txt]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ALL IN ONE/.nuget/packages/microsoft.visualstudio.sdk.analyzers/16.10.10/build/AdditionalFiles/vs-threading.MainThreadAssertingMethods.txt]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ALL IN ONE/.nuget/packages/microsoft.visualstudio.sdk.analyzers/16.10.10/build/AdditionalFiles/vs-threading.MainThreadSwitchingMethods.txt]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ALL IN ONE/.nuget/packages/microsoft.visualstudio.sdk.analyzers/16.10.10/build/AdditionalFiles/vs-threading.MembersRequiringMainThread.txt]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/0-training_after_graduate/login_trainging/sales_management/Views/Company_info/create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueV9pbmZvXGNyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/0-training_after_graduate/login_trainging/sales_management/Views/Company_info/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueV9pbmZvXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/0-training_after_graduate/login_trainging/sales_management/Views/Company_info/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueV9pbmZvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/0-training_after_graduate/login_trainging/sales_management/Views/CustomerType/create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJUeXBlXGNyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/0-training_after_graduate/login_trainging/sales_management/Views/CustomerType/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJUeXBlXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/0-training_after_graduate/login_trainging/sales_management/Views/CustomerType/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJUeXBlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/0-training_after_graduate/login_trainging/sales_management/Views/CustomerType/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJUeXBlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/0-training_after_graduate/login_trainging/sales_management/Views/Customer/create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcY3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/0-training_after_graduate/login_trainging/sales_management/Views/Customer/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/0-training_after_graduate/login_trainging/sales_management/Views/Customer/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/0-training_after_graduate/login_trainging/sales_management/Views/Customer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/0-training_after_graduate/login_trainging/sales_management/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/0-training_after_graduate/login_trainging/sales_management/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/0-training_after_graduate/login_trainging/sales_management/Views/invoice/addProductToinvoice.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaW52b2ljZVxhZGRQcm9kdWN0VG9pbnZvaWNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/0-training_after_graduate/login_trainging/sales_management/Views/invoice/create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaW52b2ljZVxjcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/0-training_after_graduate/login_trainging/sales_management/Views/invoice/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaW52b2ljZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/0-training_after_graduate/login_trainging/sales_management/Views/Report/GetCustomerListByType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0XEdldEN1c3RvbWVyTGlzdEJ5VHlwZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/0-training_after_graduate/login_trainging/sales_management/Views/Report/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/0-training_after_graduate/login_trainging/sales_management/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/0-training_after_graduate/login_trainging/sales_management/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/0-training_after_graduate/login_trainging/sales_management/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/0-training_after_graduate/login_trainging/sales_management/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/0-training_after_graduate/login_trainging/sales_management/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-88t46s213j
